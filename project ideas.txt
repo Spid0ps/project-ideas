@@ -1,0 +1,188 @@
+PROJECT 1 — Complete CI/CD Pipeline (Production Style)
+
+Stack: Git → Maven → SonarQube → Nexus → Docker → Jenkins
+
+What to implement:
+- Multibranch pipeline
+- Code quality gate failure stop
+- Artifact versioning
+- Docker build & push
+- Manual approval stage
+- Rollback stage
+
+Interview:
+- Difference between scripted & declarative pipeline
+- How quality gates work
+- Artifact repository purpose
+- Rollback strategy
+
+--------------------------------------------------
+
+PROJECT 2 — Kubernetes Production Deployment
+
+Implement:
+- Deployment
+- Service
+- Ingress
+- ConfigMap + Secret
+- HPA
+- Rolling updates
+- Resource limits
+
+Add:
+- Liveness & readiness probes
+
+Interview:
+- Pod lifecycle
+- Rolling update vs recreate
+- How HPA works internally
+
+--------------------------------------------------
+
+PROJECT 3 — Blue-Green + Canary Deployment in Kubernetes
+
+Implement:
+- Two deployments (blue/green)
+- Service switch method
+- Canary with traffic split
+- Monitoring impact
+
+Interview:
+- Why not just rolling update?
+- How to rollback instantly?
+- How traffic shifting works?
+
+--------------------------------------------------
+
+PROJECT 4 — Monitoring & Logging Stack
+
+Stack: Prometheus + Grafana + ELK
+
+Implement:
+- Pod metrics
+- Alert rules
+- Log filtering
+- Alert email simulation
+
+Interview:
+- Difference metrics vs logs
+- Push vs pull model
+- How Prometheus scrapes targets
+
+--------------------------------------------------
+
+PROJECT 5 — AWS 3-Tier Architecture Deployment
+
+Deploy:
+- VPC
+- Public & private subnet
+- EC2
+- RDS
+- ALB
+- Auto Scaling
+
+Add:
+- Security groups
+- IAM roles
+- Cost optimization explanation
+
+Interview:
+- Why private subnet?
+- Difference NACL vs Security group
+- How autoscaling decides scale-out
+
+--------------------------------------------------
+
+PROJECT 6 — Infrastructure as Code (Terraform Advanced)
+
+Implement:
+- Modular Terraform
+- Remote backend (S3)
+- State locking
+- Variables
+- Outputs
+- Multiple environments (dev/prod)
+
+Interview:
+- State file importance
+- Drift detection
+- terraform taint / import
+
+--------------------------------------------------
+
+PROJECT 7 — Docker Deep Dive Project
+
+Implement:
+- Multi-stage build
+- Custom network
+- Volumes
+- Docker compose multi-service app
+
+Interview:
+- Layer caching
+- ENTRYPOINT vs CMD
+- Bridge vs host network
+
+--------------------------------------------------
+
+PROJECT 8 — Shell Automation Project
+
+No image needed.
+
+Build:
+- Auto deployment shell script
+- Log rotation script
+- Cron job automation
+- Backup script for RDS
+
+Interview:
+- Process management
+- Signals
+- Crontab
+- Troubleshooting
+
+--------------------------------------------------
+
+PROJECT 9 — CI/CD + Kubernetes + Terraform Combined (Real DevOps)
+
+This is your flagship project.
+
+Flow:
+- Git push
+- Jenkins builds
+- Terraform provisions infra
+- Docker builds
+- K8s deploy
+- Monitoring triggers alert
+
+One repo.
+Fully automated.
+
+This impresses interviewers massively.
+
+--------------------------------------------------
+
+PROJECT 10 — Production Incident Simulation Project
+
+Simulate:
+- Pod crash
+- Memory leak
+- High CPU
+- Disk full
+- Jenkins failure
+- Node down
+
+Document:
+- How you debugged
+- Logs used
+- Commands used
+
+Interviewers LOVE troubleshooting ability.
+
+--------------------------------------------------
+
+completing these 10 seriously will help you:
+- Speak confidently
+- Explain architecture
+- Answer scenario-based questions
+- Stand out in competition
